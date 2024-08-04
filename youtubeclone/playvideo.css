@@ -1,0 +1,170 @@
+.container
+{
+    
+    position:absolute;
+    top:60px;
+  left: 0px;
+
+}
+.row
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   flex-shrink: 0;
+   background-color: #fff;
+   
+}
+.playvideo
+{
+    flex-basis: 66%;
+    flex-shrink: 0;
+    padding: 12px;
+    
+}
+.rightsidebar
+{
+    flex-basis: 30%;
+    padding: 10px;
+    flex-shrink: 0;
+}
+.playvideo video{
+    width:100%;
+    border: none;
+    outline:none;
+}
+.rightsidebar
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 0;
+  
+}
+.videoinfo
+{
+    
+    display: flex;
+    margin-bottom: 15px;
+    flex-shrink: 0;
+}
+
+.thumbnail
+{
+    width:200px;
+    margin-right: 12px;
+}
+.thumbnail:hover
+{
+    width:210px;
+}
+.videotags a
+{
+   text-decoration: none;
+   color:blue;
+   font-size: 14px;
+   font-weight: 800;
+}
+.maintitle
+{
+    margin-top: 4px;
+}
+.videostatus
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.links
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:250px;
+}
+.links a{
+    display: flex;
+    text-decoration: none;
+    color: gray;
+}
+.links img{
+    margin-right: 5px;
+    width:20px;
+}
+.channelbio
+{
+    font-size: 12px;
+    margin-top: 12px;
+    color:gray;
+    font-weight: 800;
+}
+.videodescription
+{
+    display:flex;
+    align-items: first baseline;
+    justify-content: space-between;
+    padding-top: 10px;
+
+}
+.subscribebutton button{
+    border:none;
+    color:white;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgb(237, 15, 15);
+    border-radius: 3px;
+    padding:5px 16px 5px 16px;
+    cursor: pointer;
+}
+.subscribebutton button:hover
+{
+    box-shadow: 2px 2px 5px rgba(231, 17, 17, 0.5);
+}
+.writecomment
+{
+    display:flex;
+    margin-top: 12px;
+    width: fit-content;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+.inputcontainer textarea
+{
+    width:100%;
+    border:0;
+    outline:0;
+    border-bottom:1px solid #ccc;
+    resize:none;
+    background: transparent;
+      
+}
+.comments
+{
+    display:flex;
+    align-items: center;
+    
+}
+.comments span{
+    font-weight: 700;
+    color:gray;
+    margin-left: 9px;;
+}
+.comments p{
+   margin-top: 2px;
+    line-height: 18px;
+    font-size: 14px;
+    
+}
+.commentcontent .links
+{
+    
+    margin-top: 9px;;
+}
+.commentcontent .links a{
+    font-size: 12px;
+}
+.commentcontent .links a img{
+    width:14px;
+}

@@ -1,0 +1,10 @@
+body{
+    box-sizing: border-box;
+    background-color: rgb(209, 212, 214);
+   
+    
+}
+p{
+    margin: 0;
+    padding: 0;
+}
